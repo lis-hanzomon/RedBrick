@@ -1,0 +1,11 @@
+{
+	"Profiles" : [
+		{
+			"Name" : "Profile1",
+			"Token" : "ProfileToken1",
+			"VideoSourceConfigToken" : "VideoSourceConfig1",
+			"VideoEncoderToken" : "VideoEncoderConfig1",
+			"PtzToken" : "PtzConfig1"
+		}
+	]
+}

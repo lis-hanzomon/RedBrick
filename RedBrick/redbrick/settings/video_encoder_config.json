@@ -1,0 +1,14 @@
+{
+	"VideoEncoderConfig" : [
+		{
+			"Name" : "Config1",
+			"Token" : "VideoEncoderConfig1",
+			"Quality" : 1
+		},
+		{
+			"Name" : "Config2",
+			"Token" : "VideoEncoderConfig2",
+			"Quality" : 0
+		}
+	]
+}

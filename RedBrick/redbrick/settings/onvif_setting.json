@@ -1,0 +1,16 @@
+{
+	"IdentificationName" : "raspicam",
+	"IdentificationLocation" : "country/Japan",
+	"DiscoveryMode" : 1,
+	"Interface" : "eth0",
+	"OnvifPortNo" : 9000,
+	"RtspPortNo" : 8554,
+	"SnapShotPortNo" : 8080,
+	"RecordingPath" : "/media/rec",
+	"RecordingInterval" : 300,
+	"RecordingFileNum" : 10,
+	"RecordingKeepSize" : 4000,
+	"RecordingMode" : 0,
+	"SnapShotPath" : "/var/tmp",
+	"SnapShotWidth" : 640
+}

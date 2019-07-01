@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+    xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+    xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex"
+    xmlns:wsa5="http://www.w3.org/2005/08/addressing"
+    xmlns:c14n="http://www.w3.org/2001/10/xml-exc-c14n#"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:saml1="urn:oasis:names:tc:SAML:1.0:assertion"
+    xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+    xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+    xmlns:wsc="http://docs.oasis-open.org/ws-sx/ws-secureconversation/200512"
+    xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+    xmlns:xmime="http://tempuri.org/xmime.xsd"
+    xmlns:xop="http://www.w3.org/2004/08/xop/include"
+    xmlns:tt="http://www.onvif.org/ver10/schema"
+    xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2"
+    xmlns:wstop="http://docs.oasis-open.org/wsn/t-1"
+    xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2"
+    xmlns:tds="http://www.onvif.org/ver10/device/wsdl"
+    xmlns:tev="http://www.onvif.org/ver10/events/wsdl"
+    xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2"
+    xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl"
+    xmlns:trc="http://www.onvif.org/ver10/recording/wsdl"
+    xmlns:trt="http://www.onvif.org/ver10/media/wsdl">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+   <tds:SetGeoLocation>
+    <tds:Location Entity="" Token="" Fixed="false" GeoSource="" AutoGeo="false">
+     <tt:GeoLocation lon="0.0" lat="0.0" elevation="0.0">
+      <!-- extensibility element(s) -->
+     </tt:GeoLocation>
+     <tt:GeoOrientation roll="0.0" pitch="0.0" yaw="0.0">
+      <!-- extensibility element(s) -->
+     </tt:GeoOrientation>
+     <tt:LocalLocation x="0.0" y="0.0" z="0.0">
+      <!-- extensibility element(s) -->
+     </tt:LocalLocation>
+     <tt:LocalOrientation pan="0.0" tilt="0.0" roll="0.0">
+      <!-- extensibility element(s) -->
+     </tt:LocalOrientation>
+    </tds:Location>
+   </tds:SetGeoLocation>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,19 @@
+{
+	"Users" : [
+		{
+			"Username" : "admin",
+			"Password" : "admin",
+			"Level" : 0
+		},
+		{
+			"Username" : "operator",
+			"Password" : "operator",
+			"Level" : 1
+		},
+		{
+			"Username" : "user",
+			"Password" : "user",
+			"Level" : 2
+		}
+	]
+}

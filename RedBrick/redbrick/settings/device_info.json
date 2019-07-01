@@ -1,0 +1,9 @@
+{
+	"Manufacturer" : "LinkInformationSystems",
+	"Model" : "RedBrick",
+	"FirmwareVersion" : "1.0",
+	"SerialNumber" : "00001",
+	"HardwareId" : "00010",
+	"PtzEnable" : 0
+}
+
